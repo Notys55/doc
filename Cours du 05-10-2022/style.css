@@ -1,0 +1,111 @@
+.space01{
+    /*margin 2px 3px  (2 de haut en bas et 3 de gauche à droite)
+    margin 2px (tout les cotés)
+    margin 2px 3px 1px 5px  vers le haut , vers la droite, vers le bas, vers la gauche*/
+    margin: 0px 10px;
+    color: red;
+}
+.space02{
+    border: 2px solid black;
+    padding: 1px;
+    /*padding left bottom etc*/
+    
+}
+
+p{
+    line-height: 30px;
+    /*margin:initial*/
+}
+
+.space03 {
+margin: 2em;
+}
+
+.space04{
+    text-indent: 3em;
+}
+
+.colorred{
+    color: red;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.rectangle {
+height: 50px;
+width: 10%;
+background-color: blue;
+}
+
+.motherwidth{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.margindiv{
+    margin-top: 10px;
+}
+
+.rectangleviewport{
+    background-color: orange;
+    height: 50px;
+    width: 50vw;
+}
+
+.b-radius{
+    border-radius: 25%;
+}
+
+.b-circle{
+    border-radius: 50%;
+}
+
+.square-abs {
+   position: absolute;
+   top: 200px;
+   right: 50%;
+}
+.mother-relative {
+    border: 1px solid black;
+    
+}
+
+.circle-relative{
+    position: relative;
+    width: 100%;
+    bottom: -13px;
+    left: 12px;
+}
+
+.circle-relative02{
+    position: relative;
+    left: calc(50% - 25px);
+}
+
+.menu {
+background-color: yellow;
+height: 75px;
+position: sticky;
+top: 0;
+}
+
+.deep{
+    z-index: -1;
+}
+
+.transform-square-translation {
+transform: translate(10px);
+}
+
+.transform-square-rotation {
+    transform: rotate(45deg);
+    background-color: orange;
+}

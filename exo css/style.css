@@ -1,0 +1,109 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+}
+.space03 {
+    margin: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+span{
+    font-size: 3em;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.rectangle1 {
+    height: 50px;
+    width: 50vw;
+    background-color: red;
+}
+.rectangle2 {
+    height: 50px;
+    width: 75vw;
+    background-color: blue;
+}
+.rectangle3 {
+    height: 50px;
+    width: 10vw;
+    background-color: lime;
+}
+.rectangle4 {
+    height: 50px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+}
+.rectangle5 {
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    border-top-right-radius: 20%;
+}
+.marginleft{
+    margin-left: 10px;
+}
+.margindiv{
+    margin-top: 10px;
+}
+.b-circle{
+    border-radius: 50%;
+}
+.boite{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+.square {
+    border-radius: 5px 5px 5px 5px;
+}
+form{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.image1 {
+    display: block;
+    margin-left: 85%;
+}
+.image2 {
+    display: block;
+    margin-left: 45%;
+
+}h1:first-letter{
+    color: red;
+}
+h1, h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.equal{
+    font-size: 3em;
+    margin: 0px;
+    position: absolute;
+    right: 25vw;
+    transform: rotate(55deg);
+}
+.equal::after {
+    content: ">";
+}
+.round {
+    position: absolute;
+    border-radius: 50%;
+    right: 25vw;
+    top: 13vh;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+}
