@@ -200,3 +200,80 @@ console.log(mySecondArray.indexOf("banane"));
 mySecondArray.splice(1,1);
 let banane = "une banane";
 console.log(banane[5]);
+
+//Les objets
+var voiture = {marque: "Renault", 
+                annee: "2005", 
+                puissance: 125,
+
+                afficher: function() {
+                    console.log("Cette voiture est une " + this.marque + ", de l'année " + this.annee + ", ella a " + this.puissance + " chevaux.")
+                },
+}
+voiture.afficher()
+console.log(voiture.marque);
+
+//Les boucles
+//boucle while
+var iteration = 0;
+while (iteration < 7){
+    console.log(iteration);
+    iteration++;
+}
+//boucle for
+for (let i = 0; i < 12; i++) {
+    console.log(i);
+}
+for (let j = 0; j < mySecondArray.length; j++) {
+    console.log(mySecondArray[j]);
+}
+let bloucleDo = 0;
+
+iterationBreak = 0;
+
+while(iterationBreak < 80){
+    console.log(iterationBreak);
+    iterationBreak++;
+    if (iterationBreak > 47){
+        break;
+    }
+}
+
+function factorielle(nbr){
+	var factorielle = 1;
+	for( let k = 1; k <= nbr; k++)
+  {
+  	factorielle *= k;
+  }
+  console.log(factorielle);
+}
+factorielle(3)
+
+function factor(nbr){
+    if(nbr === 0){
+        return 1;
+    }
+    else{
+        console.log("veuillez mettre un chiffre dans la fonction.")
+    }
+    return nbr * factor(nbr - 1)
+}
+console.log(factor(3))
+
+var tableauA = ['Jeannette' , 'Alphonse', 'George', 'Ludwig'];
+var tableauB = ['paul', 'Frédéric', 'Jacques', 'Roger'];
+
+
+function resultat(tableauA, tableauB){
+    if(tableauA.length === tableauB.length){
+        for(let index = 0; index < tableauB.length; index++){
+            console.log(tableauA[index] + ' ' + tableauB[index])
+        }
+    }
+    else {
+        console.log("les tableaux n'ont pas la même taille.")
+    }
+
+}
+resultat(tableauA, tableauB);
+   

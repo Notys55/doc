@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    text-decoration: overline;
+}
+.list-navigation{
+    list-style: none;
+}
+.center{
+    text-align: center;
+}
+.div-article{
+    border: 1px solid black;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-article :nth-child(4){
+    color: blue;
+}
